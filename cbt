@@ -705,9 +705,9 @@ TextButton_17.MouseButton1Down:connect(function()
 			["BodyTypeScale"] = 1,
 			["DepthScale"] = 1,
 			["HeadScale"] = 1,
-			["HeightScale"] = 1,
-			["ProportionScale"] = 50,
-			["WidthScale"] = 1
+			["HeightScale"] = 1.5,
+			["ProportionScale"] = 1,
+			["WidthScale"] = 20
 		}
 	}
 	game:GetService("ReplicatedStorage").AvatarEditorConnections.UpdateScale:InvokeServer(unpack(args))
@@ -971,15 +971,15 @@ TextButton_28.TextColor3 = Color3.fromRGB(255, 0, 187)
 TextButton_28.TextScaled = true
 TextButton_28.TextSize = 14.000
 TextButton_28.TextWrapped = true
-TextButton_2.MouseButton1Down:connect(function()
+TextButton_28.MouseButton1Down:connect(function()
 	local args = {
 		[1] = {
-			["BodyTypeScale"] = 550,
-			["DepthScale"] = 550,
-			["HeadScale"] = 550,
-			["HeightScale"] = 550,
+			["BodyTypeScale"] = 1000,
+			["DepthScale"] = 1000,
+			["HeadScale"] = 1000,
+			["HeightScale"] = 1000,
 			["ProportionScale"] = 1,
-			["WidthScale"] = 550
+			["WidthScale"] = 1000
 		}
 	}
 	game:GetService("ReplicatedStorage").AvatarEditorConnections.UpdateScale:InvokeServer(unpack(args))
