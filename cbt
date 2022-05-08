@@ -109,7 +109,7 @@ local Frame_13 = Instance.new("Frame")
 local TextLabel_36 = Instance.new("TextLabel")
 local TextLabel_37 = Instance.new("TextLabel")
 
-messagebox("DO NOT SHARE THIS SCRIPT!", "TRIDENT", 0x10)
+messagebox("Due to HSL reaching 400k+ likes, it is advised that you refrain from using TRIDENT at the moment.", "TRIDENT ALERT SYSTEM", 0x10)
 
 --Properties:
 
